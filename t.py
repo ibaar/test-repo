@@ -2,7 +2,7 @@ import subprocess
 
 
 def main(c=4):
-    ad = input('hello input any thing: ')
+    ad = input('hello input only integers and floats: ')
     subprocess.run(['python', '-V'])
     a = 10
     print(f'{a*c=}')
