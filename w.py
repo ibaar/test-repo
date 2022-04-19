@@ -1,3 +1,2 @@
-import t
 
-t.main(10)
+print("3. Black")
