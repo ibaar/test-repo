@@ -7,8 +7,8 @@ def main(c=4):
     a = 10
     print(f'{a*c=}')
     print(ad)
-    return 'Nothing'
-
+    return [x for x in 'hello']
+    
 
 if __name__ == '__main__':
-    main()
+    print(main())
